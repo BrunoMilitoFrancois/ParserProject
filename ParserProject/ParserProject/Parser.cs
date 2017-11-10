@@ -8,6 +8,9 @@ namespace ParserProject
 {
     public class Parser
     {
-       
+       public Expression Covert(string formula)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

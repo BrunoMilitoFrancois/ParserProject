@@ -8,9 +8,9 @@ namespace ParserProject
 {
     public class Expression
     {
-        Expression Parse(string formula)
+        Expression Resolve(string formula)
         {
-            return null;
+            throw new NotImplementedException();
         }
     }
 }

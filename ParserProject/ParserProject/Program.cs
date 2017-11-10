@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace ParserProject
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            Parser parser = new Parser();
+            parser.Covert(args[0]);
+
         }
     }
 }
