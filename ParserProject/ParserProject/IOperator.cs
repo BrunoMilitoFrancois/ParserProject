@@ -8,6 +8,6 @@ namespace ParserProject
 {
     public interface IOperator
     {
-        int Calculate(Number a, Number b);
+        Number Resolve(Number a, Number b);
     }
 }

@@ -8,9 +8,11 @@ namespace ParserProject
 {
     public class Subtraction : IOperator
     {
-        public int Calculate(Number a, Number b)
+        public Number Resolve(Number a, Number b)
         {
-            return a.Value - b.Value;
+            Number number = new Number();
+            number.Value = a.Value - b.Value;
+            return number;
         }
     }
 }

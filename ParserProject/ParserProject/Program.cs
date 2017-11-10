@@ -12,7 +12,6 @@ namespace ParserProject
         {
             Parser parser = new Parser();
             parser.Covert(args[0]);
-
         }
     }
 }

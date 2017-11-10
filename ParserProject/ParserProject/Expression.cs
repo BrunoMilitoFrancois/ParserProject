@@ -8,9 +8,23 @@ namespace ParserProject
 {
     public class Expression
     {
-        Expression Resolve(string formula)
+        Number Calculate(Number a, Number b, char op)
         {
-            throw new NotImplementedException();
+            Number result = new Number();
+            IOperator oper;
+            switch (op)
+            {
+                case '+':
+                    oper = new Sum();
+                    break;
+                case '-':
+                    oper = new Subtraction();
+                    break;
+                default:
+                    throw new InvalidOperationException();
+            }
+            result = oper.Resolve(a, b);
+            return result;
         }
     }
 }
