@@ -11,7 +11,9 @@ namespace ParserProject
         static void Main(string[] args)
         {
             Parser parser = new Parser();
-            parser.Covert(args[0]);
+            Console.WriteLine("Enter the expression to be calculated: ");
+            string expression = Console.ReadLine();
+            parser.Covert(expression);
         }
     }
 }

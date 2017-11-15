@@ -10,7 +10,7 @@ namespace ParserProject
     {
         public Number Resolve(Number a, Number b)
         {
-            Number number = new Number();
+            var number = new Number();
             number.Value = a.Value + b.Value;
             return number;
         }

@@ -10,7 +10,18 @@ namespace ParserProject
     {
        public Expression Covert(string formula)
         {
-            throw new NotImplementedException();
+            var numbers = new List<Number>();
+            formula = formula.Replace(" ", string.Empty);
+            var auxiliary = formula.Replace("+", "*").Replace("-", "*");
+            foreach(var c in auxiliary)
+            {
+                if (c != '*')
+                {
+                    numbers.Add(new Number() { Value = c, Signal = })
+                }
+            }
+            
+
         }
     }
 }

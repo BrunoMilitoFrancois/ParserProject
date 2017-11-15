@@ -9,5 +9,6 @@ namespace ParserProject
     public class Number
     {
         public int Value { get; set; }
+        public char Signal { get; set; }
     }
 }

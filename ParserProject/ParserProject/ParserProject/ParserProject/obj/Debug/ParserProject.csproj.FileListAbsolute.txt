@@ -1,2 +1,0 @@
-c:\users\bruno.francois\documents\visual studio 2015\Projects\ParserProject\ParserProject\bin\Debug\ParserProject.exe.config
-D:\ZBRA Projects\ParserProject-master\ParserProject\ParserProject\ParserProject\bin\Debug\ParserProject.exe.config
