@@ -8,20 +8,22 @@ namespace ParserProject
 {
     public class Parser
     {
-       public Expression Covert(string formula)
+       public List<Number> Covert(string formula)
         {
+            var i = 0;
             var numbers = new List<Number>();
             formula = formula.Replace(" ", string.Empty);
-            var auxiliary = formula.Replace("+", "*").Replace("-", "*");
-            foreach(var c in auxiliary)
+            var auxiliary = formula.Replace("+", "*+").Replace("-", "*-");
+            var formulaNumbers = auxiliary.Split('*');
+            foreach(var c in formulaNumbers)
             {
-                if (c != '*')
+                if (c != "")
                 {
-                    numbers.Add(new Number() { Value = c, Signal = })
+                    numbers.Add(new Number() { Value = Convert.ToInt32(c) });
                 }
+                
             }
-            
-
+            return numbers;
         }
     }
 }

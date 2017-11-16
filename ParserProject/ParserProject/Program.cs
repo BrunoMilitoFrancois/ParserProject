@@ -13,7 +13,10 @@ namespace ParserProject
             Parser parser = new Parser();
             Console.WriteLine("Enter the expression to be calculated: ");
             string expression = Console.ReadLine();
-            parser.Covert(expression);
+            List<Number> numbers = parser.Covert(expression);
+            var result = new Expression().Calculate(numbers, '+');
+            Console.WriteLine($"Answer = {result.Value}");
+            Console.ReadLine();
         }
     }
 }

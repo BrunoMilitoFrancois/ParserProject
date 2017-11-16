@@ -12,6 +12,7 @@ namespace ParserProject
         {
             var number = new Number();
             number.Value = a.Value + b.Value;
+
             return number;
         }
     }

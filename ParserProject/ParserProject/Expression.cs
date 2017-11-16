@@ -8,22 +8,17 @@ namespace ParserProject
 {
     public class Expression
     {
-        Number Calculate(Number a, Number b, char op)
+       public Number Calculate(List<Number> numbers, char op)
         {
-            Number result = new Number();
-            IOperator oper;
-            switch (op)
+            var result = new Number();
+            result.Value = 0;
+            IOperator oper = new Sum();
+
+            foreach(var n in numbers)
             {
-                case '+':
-                    oper = new Sum();
-                    break;
-                case '-':
-                    oper = new Subtraction();
-                    break;
-                default:
-                    throw new InvalidOperationException();
+                result = oper.Resolve(result, n);
             }
-            result = oper.Resolve(a, b);
+
             return result;
         }
     }

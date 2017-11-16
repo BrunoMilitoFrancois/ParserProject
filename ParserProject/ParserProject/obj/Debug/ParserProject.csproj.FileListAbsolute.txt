@@ -4,3 +4,10 @@ D:\ZBRA Projects\ParserProject-master\ParserProject\ParserProject\ParserProject\
 D:\ZBRA Projects\ParserProject-master\ParserProject\ParserProject\ParserProject\obj\Debug\ParserProject.csprojResolveAssemblyReference.cache
 D:\ZBRA Projects\ParserProject-master\ParserProject\ParserProject\ParserProject\obj\Debug\ParserProject.exe
 D:\ZBRA Projects\ParserProject-master\ParserProject\ParserProject\ParserProject\obj\Debug\ParserProject.pdb
+D:\ZBRA Projects\ParserProject\ParserProject\ParserProject\bin\Debug\ParserProject.exe.config
+D:\ZBRA Projects\ParserProject\ParserProject\ParserProject\bin\Debug\ParserProject.exe
+D:\ZBRA Projects\ParserProject\ParserProject\ParserProject\bin\Debug\ParserProject.pdb
+D:\ZBRA Projects\ParserProject\ParserProject\ParserProject\obj\Debug\ParserProject.csprojResolveAssemblyReference.cache
+D:\ZBRA Projects\ParserProject\ParserProject\ParserProject\obj\Debug\ParserProject.csproj.CoreCompileInputs.cache
+D:\ZBRA Projects\ParserProject\ParserProject\ParserProject\obj\Debug\ParserProject.exe
+D:\ZBRA Projects\ParserProject\ParserProject\ParserProject\obj\Debug\ParserProject.pdb
